@@ -1,0 +1,43 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ribbon-wrapper {
+    background-color: #f3f3f3;
+    border-bottom: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tab-pane {
+    min-height: 120px;
+}
+
+.ribbon-group {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    margin-right: 10px;
+    text-align: center;
+    min-width: 120px;
+}
+
+.ribbon-group h6 {
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.ribbon-group button {
+    margin: 2px;
+}
+
+.ribbon-group select {
+    vertical-align: middle;
+    margin-left: 5px;
+    display: inline-block;
+}
+.ribbon-group button i {
+  pointer-events: none;
+}

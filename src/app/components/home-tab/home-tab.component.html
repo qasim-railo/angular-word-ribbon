@@ -1,0 +1,27 @@
+<div class="d-flex flex-wrap">
+  <div class="ribbon-group">
+    <div>
+      <button class="btn btn-light btn-sm" (click)="handleAction('paste')">
+        <i class="bi bi-clipboard"></i>
+      </button>
+      <button class="btn btn-light btn-sm" (click)="handleAction('cut')">Cut</button>
+      <button class="btn btn-light btn-sm" (click)="handleAction('copy')">Copy</button>
+    </div>
+    <h6>Clipboard</h6>
+  </div>
+
+  <div class="ribbon-group">
+    <div>
+      <button class="btn btn-light btn-sm" (click)="handleAction('bold')">
+        <i class="bi bi-type-bold"></i>
+      </button>
+      <button class="btn btn-light btn-sm" (click)="handleAction('italic')">
+        <i class="bi bi-type-italic"></i>
+      </button>
+      <button class="btn btn-light btn-sm" (click)="handleAction('underline')">
+        <i class="bi bi-type-underline"></i>
+      </button>
+    </div>
+    <h6>Font</h6>
+  </div>
+</div>

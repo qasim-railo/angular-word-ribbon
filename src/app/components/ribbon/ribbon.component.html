@@ -1,0 +1,18 @@
+<ul class="nav nav-tabs" id="ribbonTabs" role="tablist">
+    <li class="nav-item" *ngFor="let tab of tabs; let i = index">
+        <button class="nav-link" [class.active]="i === 0" [attr.data-bs-toggle]="'tab'"
+            [attr.data-bs-target]="'#' + tab.id" type="button">
+            {{ tab.name }}
+        </button>
+    </li>
+</ul>
+
+<div class="tab-content border p-2" id="ribbonContent">
+    <div *ngFor="let tab of tabs; let i = index" class="tab-pane fade" [class.show]="i === 0" [class.active]="i === 0"
+        [attr.id]="tab.id">
+        <ng-container [ngSwitch]="tab.id">
+            <app-home-tab *ngSwitchCase="'home'"></app-home-tab>
+            <app-insert-tab *ngSwitchCase="'insert'"></app-insert-tab>
+        </ng-container>
+    </div>
+</div>
