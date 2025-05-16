@@ -1,27 +1,46 @@
-# RibbonUi
+# 🧩 Angular Word Ribbon UI
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.13.
+A fully functional MS Word-style Ribbon UI built with **Angular 17** and **Bootstrap 5**, replicating familiar formatting tools like font styles, alignment, and editing controls in a modern web interface.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+## 🔗 Live Demo
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+👉 [View App on GitHub Pages](https://qasim-railo.github.io/angular-word-ribbon/)  
+👉 [View Source Code](https://github.com/your-username/angular-word-ribbon)
 
-## Build
+> Replace `your-username` with your actual GitHub username.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+---
 
-## Running unit tests
+## 🛠 Features
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+- MS Word-like ribbon interface
+- Editable content area (`contenteditable`)
+- Font formatting buttons (bold, italic, underline)
+- Alignment tools (left, center, right)
+- Undo / Redo / Clear formatting
+- Dynamic tab structure with component separation
+- Built using Angular 17 and Bootstrap 5
+- Responsive design with Bootstrap grid
 
-## Running end-to-end tests
+---
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## 🚀 Tech Stack
 
-## Further help
+- **Angular 17**
+- **Bootstrap 5**
+- **Bootstrap Icons**
+- SCSS Styling
+- GitHub Pages Deployment
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+---
+
+## 📦 Project Setup
+
+```bash
+# Install dependencies
+npm install
+
+# Run locally
+ng serve
